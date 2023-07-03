@@ -7,8 +7,7 @@
   "license": "ISC",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
-    "serve": "npx @11ty/eleventy --serve",
-    "test": "snyk test"
+    "serve": "npx @11ty/eleventy --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0-canary.23",
