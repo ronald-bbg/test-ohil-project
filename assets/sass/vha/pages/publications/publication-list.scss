@@ -1,0 +1,30 @@
+@use "uswds-core" as *;
+
+.publication-list {
+
+    background-color: #171716;
+
+    &__item {
+        border-bottom: 1px solid #{color("gray-warm-80")};
+    }
+
+    .item__title {
+        font-size: 1.2rem;
+        display: block;
+        padding-bottom: 16px;
+    }    
+
+    .item__authors {
+        font-size: .8rem;
+        display: block;
+        padding-bottom: 32px;
+    }
+
+    .item__url {
+        display: block;
+    }
+
+    a {
+        color: #fff;
+    }
+}

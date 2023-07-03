@@ -1,0 +1,23 @@
+{
+  "name": "va-ncchi-beta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "WBD",
+  "license": "ISC",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "serve": "npx @11ty/eleventy --serve",
+    "test": "snyk test"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0-canary.23",
+    "@uswds/compile": "^1.0.0",
+    "@uswds/uswds": "^3.5.0",
+    "snyk": "^1.1069.0"
+  },
+  "dependencies": {
+    "owl.carousel": "^2.3.4",
+    "rfs": "^10.0.0"
+  }
+}

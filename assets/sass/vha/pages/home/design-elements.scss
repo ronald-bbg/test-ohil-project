@@ -1,0 +1,28 @@
+.svg-container {
+    position: absolute;
+    z-index: -1;
+
+    &.svg-blur-1 {
+        width: 1000px;
+        left: -450px;
+        bottom: -400px;
+    }
+
+    &.svg-blur-2 {
+        width: 1000px;
+        right: -450px;
+        bottom: -400px;
+    }    
+
+    &.svg-blur-3 {
+        width: 1200px;
+        right: -750px;
+        bottom: 100px;
+    }       
+    
+    &.svg-blur-4 {
+        width: 1000px;
+        left: -450px;
+        bottom: -400px;
+    }    
+}

@@ -1,0 +1,16 @@
+@use "uswds-core" as *;
+
+.virtual-teleportation {
+
+    background: linear-gradient(180deg, #{color("gray-80")} 0%, #{color("gray-warm-90")} 100%);
+  
+    @include at-media(desktop) {
+        &__drone {
+            bottom: auto;
+            left: auto;
+            top: -180px;
+            right: -300px;
+            widtH: 612px;
+        }
+    }    
+}

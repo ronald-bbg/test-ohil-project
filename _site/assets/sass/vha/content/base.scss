@@ -1,0 +1,21 @@
+@use "uswds-core" as *;
+
+body {
+    background-color: #{color("gray-warm-90")};
+}
+
+body.ncchi-interior {
+        background-image: url('../../assets/img/interior/page-title-bg.jpg');
+        background-repeat: no-repeat;
+        background-position: top center;
+}
+
+.site-wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
+section {
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,22 @@
+@use "uswds-core" as *;
+
+.our-team {
+    position: relative;
+    
+    &__item {
+
+        @include at-media(mobile) {
+            margin-bottom: 40px;
+        }        
+
+        h3 {
+            margin-bottom: 8px;
+        }
+
+        h4 {
+            color: #{color("base-light")};
+            margin-top: 0;
+        }
+    }
+
+}
