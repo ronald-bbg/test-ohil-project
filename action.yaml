@@ -19,6 +19,7 @@ runs:
   env:
     SNYK_INTEGRATION_NAME: GITHUB_ACTIONS
     SNYK_INTEGRATION_VERSION: node
+    SNYK_TOKEN: ${{ secrets.d51dd497-71e5-4579-b2b8-03a11789d567 }}
   args:
   - snyk
   - ${{ inputs.command }}
