@@ -8,9 +8,9 @@ National Center for Collaborative Healthcare Innovation website repo.
     git clone https://github.com/ronald-wbd/test-ohil-project.git
     ```
     
-    This will create a va-ncchi-beta directory with the website files inside. Navigate to this new directory:
+    This will create a test-ohil-project directory with the website files inside. Navigate to this new directory:
     ```bash
-    cd VA-NCCHI-beta
+    cd test-ohil-project
     ```
 
 1. Install Node.js `16.16.0` or higher =>
