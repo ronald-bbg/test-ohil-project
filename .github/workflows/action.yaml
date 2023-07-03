@@ -24,3 +24,7 @@ runs:
   - snyk
   - ${{ inputs.command }}
   - ${{ inputs.args }} 
+  
+- name: ronald.ponferrada@WBDynamic.com
+  uses: Azure/login@v1
+
