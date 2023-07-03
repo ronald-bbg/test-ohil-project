@@ -3,7 +3,7 @@
 National Center for Collaborative Healthcare Innovation website repo.
 
 ## How to Install and Run the Project
-1. Clone this repo. Navigate to the directory where you'd like to put the va-ncchi-beta directory and run:
+1. Clone this repo. Navigate to the directory where you'd like to put the test-ohil-project directory and run:
     ```bash
     git clone https://github.com/ronald-wbd/test-ohil-project.git
     ```
