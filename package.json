@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "owl.carousel": "^2.3.4",
-    "rfs": "^10.0.0"
+    "rfs": "^10.0.0",
+    "gulp": "^4.0.2"
   }
 }
