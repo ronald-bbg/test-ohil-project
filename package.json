@@ -2,7 +2,7 @@
   "name": "test-ohil-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
   "author": "WBD",
   "license": "ISC",
   "scripts": {
